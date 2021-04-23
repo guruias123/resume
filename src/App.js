@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './App.css'
+import Display from './Display'
 const url = 'http://localhost:8500/signup'
 
 class App extends Component {
@@ -84,6 +85,7 @@ class App extends Component {
             <Link to='/submit'> <button className='btn btn-success' onClick={this.handleSubmit}>Submit</button> </Link>
           </div>
         </form>
+       
       </>
     )
   }
